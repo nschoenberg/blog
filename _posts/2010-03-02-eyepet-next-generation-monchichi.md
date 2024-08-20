@@ -9,7 +9,7 @@ tags:
 
 Moin!
 
-Da ich seit neustem ISDN habe, jedoch noch kein ISDN-Telefon besaß, musste ich gestern zwangsweise zu Media-Markt und mir eins kaufen. Da ich schonmal dort war, habe ich mir gleich das PlayStation EyePet gekauft, die Werbung im TV fand ich schon immer lustig. :)<div></div>Als ich mich dann mit meiner Freundin vor den TV gesetzt habe, war das erste was sie sagte "OHhhh süß, Monchichi" ... Hä? :D Ich muss sagen sie hat ziemlich recht
+Da ich seit neustem ISDN habe, jedoch noch kein ISDN-Telefon besaß, musste ich gestern zwangsweise zu Media-Markt und mir eins kaufen. Da ich schonmal dort war, habe ich mir gleich das PlayStation EyePet gekauft, die Werbung im TV fand ich schon immer lustig. :) Als ich mich dann mit meiner Freundin vor den TV gesetzt habe, war das erste was sie sagte "OHhhh süß, Monchichi" ... Hä? :D Ich muss sagen sie hat ziemlich recht
 
 ![Monchichi](/blog/images/monchichi_eyepet.png)
 
