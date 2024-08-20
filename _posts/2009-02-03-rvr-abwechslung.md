@@ -11,4 +11,4 @@ gestern Abend haben wir ein paar erfolgreiche Szenarien hinter uns gebracht. Bei
 
 Da in einem Szenario auch einige BeWARe Spieler anwesend waren, bin zumindest ich ein kleinwenig Stolz euch nachfolgenden Screenshots präsentieren zu können.
 
-[![Grrbrr_034_2.jpg](/blog/images/Grrbrr_034.jpg "Grrbrr_034_2_1.jpg")](/wp-content/uploads/rvrabend/Grrbrr_034.jpg)
+![Grrbrr_034.jpg](/blog/images/Grrbrr_034.jpg)

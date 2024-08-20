@@ -12,4 +12,6 @@ Hi,
 
 heute habe ich eine ganz andere Art von Werbung kennenlernen müssen, ich denke die Bilder sagen mehr als Worte.. Viele Orcs bilden ein Werbung.
 
-[![zycom.jpg](/blog/images/.zycom.jpg "zycom.jpg")](/wp-content/uploads/wow/zycom.jpg) [![bottom.jpg](/blog/images/.bottom.jpg "bottom.jpg")](/wp-content/uploads/wow/bottom.jpg) [![faiding.jpg](/blog/images/.faiding.jpg "faiding.jpg")](/wp-content/uploads/wow/faiding.jpg)
+![zycom.jpg](/blog/images/zycom.jpg)
+![bottom.jpg](/blog/images/bottom.jpg)
+![faiding.jpg](/blog/images/faiding.jpg)

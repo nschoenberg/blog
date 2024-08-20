@@ -9,7 +9,7 @@ Hi,
 
 ich möchte euch diesen Screenshot nicht vorenthalten, finde die Teile sehr hübsch gelungen. In der deutschen Übersetzung heißen diese Belagerungswaffen übriegens "Axtschnitter", was nicht mit dem Tabletop-Spiel übereinstimmt. Der Goblinschnitter ist eine typische Kriegsmaschine entworfen von einem berühmten Slayermaschinisten.
 
-[![Grrbrr_060_1.jpg](/blog/images/Grrbrr_060_1.jpg "Grrbrr_060_1.jpg")](/wp-content/uploads/Warhammer_09/Grrbrr_060_1.jpg)
+![Grrbrr_060_1.jpg](/blog/images/Grrbrr_060_1.jpg)
 
 Hier noch einmal ein Bild vom Tabletop Goblinschnitter:
 

@@ -11,18 +11,51 @@ ich bin heute auf einen sehr hübschen Code Schnipsel gestoßen. Mit Hilfe diese
 
 Die Funktion:
 
-\[php\] function array\_sort($array, $on, $order=SORT\_ASC) { $new\_array = array(); $sortable\_array = array();
+```
+unction array_sort($array, $on, $order=SORT_ASC)
+{
+  $new_array = array();
+  $sortable_array = array();
 
-if (count($array) > 0) { foreach ($array as $k => $v) { if (is\_array($v)) { foreach ($v as $k2 => $v2) { if ($k2 == $on) { $sortable\_array\[$k\] = $v2; } } } else { $sortable\_array\[$k\] = $v; } }
+  if (count($array) > 0) {
+    foreach ($array as $k => $v) {
+      if (is_array($v)) {
+        foreach ($v as $k2 => $v2) {
+          if ($k2 == $on) {
+          $sortable_array[$k] = $v2;
+          }
+        }
+        } else {
+          $sortable_array[$k] = $v;
+      }
+    }
 
-switch ($order) { case SORT\_ASC: asort($sortable\_array); break; case SORT\_DESC: arsort($sortable\_array); break; }
+    switch ($order) {
+      case SORT_ASC:
+      asort($sortable_array);
+      break;
+      case SORT_DESC:
+      arsort($sortable_array);
+      break;
+    }
 
-foreach ($sortable\_array as $k => $v) { $new\_array\[$k\] = $array\[$k\]; } }
+    foreach ($sortable_array as $k => $v) {
+      $new_array[$k] = $array[$k];
+    }
+  }
 
-return $new\_array; } \[/php\]
+  return $new_array;
+}
+```
 
 Beispiel:
 
-\[php\] $values\[\] = array ("id" => "384f5de3ea2fded", sellerid => 1, sellername => "Zeppelin"); $values\[\] = array ("id" => "384f5de3ea2fdef", sellerid => 4, sellername => "Buxbaum"); $values\[\] = array ("id" => "384f5de3ea2fde1", sellerid => 3, sellername => "Rosenkranz"); $values\[\] = array ("id" => "384f5de3ea2fde2", sellerid => 7, sellername => "Lotus");
+```
+$values[] = array ("id" => "384f5de3ea2fded", sellerid => 1, sellername => "Zeppelin");
+$values[] = array ("id" => "384f5de3ea2fdef", sellerid => 4, sellername => "Buxbaum");
+$values[] = array ("id" => "384f5de3ea2fde1", sellerid => 3, sellername => "Rosenkranz");
+$values[] = array ("id" => "384f5de3ea2fde2", sellerid => 7, sellername => "Lotus");
 
-print\_r(array\_sort($values, "sellerid")); print\_r(array\_sort($values, "sellername")); \[/php\]
+print_r(array_sort($values, "sellerid"));
+print_r(array_sort($values, "sellername"))
+```

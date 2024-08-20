@@ -9,7 +9,7 @@ Hallo,
 
 Vergangenen Sonntag  war ich mit meiner Stammgruppe das erste mal richtig Aktiv in Lost Vale unterwegs und ich möchte euch von meinen Eindrücken erzählen.
 
-[![Grrbrr_019_1.jpg](/blog/images/Grrbrr_019.jpg "Grrbrr_019_1.jpg")](wp-content/uploads/Warhammer/Grrbrr_019.jpg)
+![Grrbrr_019_1.jpg](/blog/images/Grrbrr_019.jpg)
 
 ## Der Weg zum ersten Wing-Boss:
 
@@ -37,17 +37,17 @@ In nachfolgendem Screenshot ist im Hintergrund eine Standarte zu erkennen. Dort 
 
 > Update: Nach mehreren Lost Vale runs ist uns dieser Boss viel leichter gefallen. Wir haben ihn an der selben Stelle getankt wie bereits geschrieben, allerdings haben wir uns das evaden von den Wolken gespart und den Boss via Tank & Spank gekillt :-) Wenn es den Heilern nicht mehr möglich war den stätig ansteigenden Dmg zu heilen, hat einfach der 2te Tank in der Gruppe für kurze Zeit übernommen.
 
-[![Grrbrr_008_1.jpg](/blog/images/Grrbrr_008_1.jpg "Grrbrr_008_1.jpg")](wp-content/uploads/Warhammer/Grrbrr_008.jpg)
+![Grrbrr_008_1.jpg](/blog/images/Grrbrr_008_1.jpg)
 
 **Horgulul** Der dritte und letzte Side-Boss ist eine Chaosbestie und meiner Meinung nach ein Witz im Gegensatz zu Malghor besitzt Horgulul nicht das recht sich "Side-Boss" zu schimpfen. Er gleicht eher einer Truhe auf die man einschlägt bis sie sich öffnet um den Loot zu erhalten. Kurz: Tank & spank.
 
 Horgulul bestitzt einen Area-Knockback wodurch es sich für den Main-Tank empfiehlt mit dem Rücken zum Felsen in der Mitte zu stehen. Immer wenn Horgulul diesen Knockback benutzt spawnt er außerdem mehrere Maden. Sie machen nicht viel Dmg und ein Area-Taunt vom Offtank reicht hier aus um die Maden vernünftig im AE Dmg sterben zu lassen. Horgulul hinterließ uns nach seinem ab leben [Darkpromise Vambracers](http://www.wardb.com/item.aspx?id=421057), die wir leider entwerten mussten. Außerdem konnten wir hier ein Quest abschließen indem wir die gesammelten Kristalle auf den Fels in der Mitte anwendeten.
 
-[![Grrbrr_012_1.jpg](/blog/images/Grrbrr_012_1.jpg "Grrbrr_012_1.jpg")](wp-content/uploads/Warhammer/Grrbrr_012.jpg)
+![Grrbrr_012_1.jpg](/blog/images/Grrbrr_012_1.jpg)
 
 **Dralel die Weißfeuer-Matrone** Nun waren wir endlich angekommen beim Wing-Boss "Dralel". Dralel ist eine riesige Spinne und kein Held/in, sondern Kommandant/in. Leider haben wir es aus Zeitgründen nicht mehr geschafft Dralel an diesem Sonntag zu besiegen - Allerdings werden wir dies Mittwoch nachholen und ich werde diesen Artikel dann aktualisieren. Für ein Screenshot hat die Zeit dann aber dennoch gelangt.
 
-[![Grrbrr_013_1.jpg](/blog/images/Grrbrr_013_1.jpg "Grrbrr_013_1.jpg")](wp-content/uploads/Warhammer/Grrbrr_013.jpg)
+![Grrbrr_013_1.jpg](/blog/images/Grrbrr_013_1.jpg)
 
 Wie versprochen hier nun die Ergänzung. Wir haben es nun also geschafft vergangenen Mittwoch Dralel zu töten. Wir haben ein paar whipes gebraucht um die optimale Stellung zum Tanken herauszufinden. Diese befindet sich unserer Meinung nach in der unteren rechten Ecke das Raumes. Ich habe die Spinne mit dem Rücken zur Wand an dem Lichtstrahl getankt.
 
@@ -61,4 +61,4 @@ Grüße an Rangrous, Corsi, Fordebrand, Indurion und Macha
 
 Bis dann, GrrBrr
 
-[Zu Teil 2](http://blog.grrbrr.de/2009/03/erlebnisse-eines-eisenbrecher%c2%b4s-heute-lost-vale-teil-2/ "Teil 2")
+[Zu Teil 2](https://nschoenberg.github.io/blog/games/warhammer-online/2009/03/25/erlebnisse-eines-eisenbrecher-s-heute-lost-vale-teil-2.html "Teil 2")
