@@ -10,4 +10,4 @@ tags:
 
 Chill out and take a ride with the:
 
-[![roflcopter.png](images/.roflcopter.png "roflcopter.png")](/wp-content/uploads/2008/08/roflcopter.png)
+[![roflcopter.png](/blog/images/.roflcopter.png "roflcopter.png")](/wp-content/uploads/2008/08/roflcopter.png)

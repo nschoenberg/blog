@@ -7,4 +7,4 @@ categories:
 
 Dieses Stück Papier hängt seit neustem in einem unserer Entwicklerbüros :-)
 
-![](images/apple-google-you.png)
+![](/blog/images/apple-google-you.png)

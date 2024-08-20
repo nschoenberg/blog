@@ -13,7 +13,7 @@ Hey,
 
 wie ich vor kurzem bereits geschrieben hatte, habe ich ein Combat-Log Parser für das Spiel RIFT entwickelt. Zwischenzeitlich hatte ich das Programm noch um ein paar Features erweitert und auch das Interface überarbeitet.
 
-![](images/newgui.png "newgui")
+![](/blog/images/newgui.png "newgui")
 
 Während des Projektes sind außerdem 2 Youtube Videos entstanden, die ich hier kurz verlinken möchte. Es sind meine ersten Screencasts, entstanden mit dem sehr guten Programm [Screencast-o-matic](http://screencast-o-matic.com/).
 

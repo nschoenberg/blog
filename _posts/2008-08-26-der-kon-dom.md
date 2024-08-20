@@ -9,6 +9,6 @@ tags:
   - "fun"
 ---
 
-[![condom_1.png](images/condom_1.jpeg "condom_1.jpeg")](/wp-content/uploads/2008/08/condom.png)
+[![condom_1.png](/blog/images/condom_1.jpeg "condom_1.jpeg")](/wp-content/uploads/2008/08/condom.png)
 
 Dies ist der Kon-Dom. Er steht in Alt Tarantia im Reichen Viertel und ist eine der vielen Sehenswürdigkeiten die diese schöne Stadt zu bieten hat. ;D

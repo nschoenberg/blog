@@ -25,7 +25,7 @@ Mit einem aufmerksamen Off-Tank an eurer Seite können die Krokodile auch nach o
 
 Der Boss ist sehr einfach zu legen und fällt eindeutig in die Kategorie: Tank & Spank :)
 
-[![1stsideboss_1.jpg](images/1stsideboss_1.jpg "1stsideboss_1.jpg")](/wp-content/uploads/Warhammer_09/1stsideboss.jpg) In diesem Bild zeigt der weiße Löwe 'Corsi' wo man am besten NICHT stehen sollte :P
+[![1stsideboss_1.jpg](/blog/images/1stsideboss_1.jpg "1stsideboss_1.jpg")](/wp-content/uploads/Warhammer_09/1stsideboss.jpg) In diesem Bild zeigt der weiße Löwe 'Corsi' wo man am besten NICHT stehen sollte :P
 
 **Zweiter Side-Boss:** Der zweite Side-Boss ist nicht sehr weit von der Höhle entfernt wo ihr zuvor den ersten Side-Boss gelegt habt. Wenn ihr von der Höhle aus den Fluss entlang lauft kommt ihr kurz darauf an einem kleinen See an. Nachdem ihr dort 3 Krokodile getötet habt, könnt ihr rechts eine weitere Höhle betreten.
 
@@ -44,7 +44,7 @@ Ich muss an dieser Stelle gestehen dass unsere Gruppe bisher immer einen Bug ben
 - Der Heiler ohne "aggro reduce" heilt wie blöde um die Aggro von dem kleinen Goblin zu erhalten. Dieser läuft dann zu der Fackel hin und bugged dort, macht kein Dmg und stört nicht weiter
 - Sobald der Heiler Aggro hat, kann der Wettwanzt gelegt werden. Es sollte darauf geachtet werden sich möglichst von den Ein- / Ausgängen entfernt zu halten da es sonst passieren kann das der Boss durch seinen knockback einzelne Spieler sehr weit zurück wirft. Dmg auf den kleinen sollte vermieden werden
 
-[![2ndsideboss_1.jpg](images/2ndsideboss_1.jpg "2ndsideboss_1.jpg")](/wp-content/uploads/Warhammer_09/2ndsideboss.jpg) Durch den Kreis und den Pfeil sollen die Positionen der angesprochenen Fackeln deutlich werden. Beim Pfeil wird der kleine Goblin Held von einem Heiler "getankt".
+[![2ndsideboss_1.jpg](/blog/images/2ndsideboss_1.jpg "2ndsideboss_1.jpg")](/wp-content/uploads/Warhammer_09/2ndsideboss.jpg) Durch den Kreis und den Pfeil sollen die Positionen der angesprochenen Fackeln deutlich werden. Beim Pfeil wird der kleine Goblin Held von einem Heiler "getankt".
 
 > Update: Dieser Bug wurde von Mythic gefixt und es ist nicht länger möglich den Boss auf diese Weise zu legen. Ab jetzt müssen beide Bosse getankt werden und die Taktikt ändert sich deutlich. Durch die Tatsache das der kleine je länger er lebt, den schaden des Großen verstärkt ist es nötig den kleinen in bestimmten Abständen regelmäßig zu töten. Hierbei empfehle ich alle 15% die der Große verliert, den kleinen einmal zu killen. Dadurch wird verhindert das der Dmg des Großen zu hoch wird. Der kleine darf nicht zu oft sterben, da er mit jedem respawn seinen eigenen Dmg erhöht. Also schön in regelmäßigen Abständen killen, dann passt das schon. :-)
 
@@ -52,7 +52,7 @@ Ich muss an dieser Stelle gestehen dass unsere Gruppe bisher immer einen Bug ben
 
 Wir haben es so gemacht das unser weißer Löwe mit seinem pet den Boss gepullt hat (mit der Silence-Fähigkeit) und ich den Boss dann übernommen hab sobald er dicht an den Klippen dran war (gut zu erkennen auf dem Bild). Bei diesem Boss hat es uns geholfen so oft wie möglich zu silencen. Wenn er nicht zum casten kommt macht er kaum Schaden.
 
-[![3rdsideboss_1.jpg](images/3rdsideboss_1.jpg "2ndsideboss_1.jpg")](/wp-content/uploads/Warhammer_09/3rdsideboss.jpg) Der rote Pfeil zeigt an wo wir unsere Heiler positioniert haben: Oben auf der Klippe wo zuvor 3 Mobs standen
+[![3rdsideboss_1.jpg](/blog/images/3rdsideboss_1.jpg "2ndsideboss_1.jpg")](/wp-content/uploads/Warhammer_09/3rdsideboss.jpg) Der rote Pfeil zeigt an wo wir unsere Heiler positioniert haben: Oben auf der Klippe wo zuvor 3 Mobs standen
 
 **Sarthain der Weltenträger** Wenn ihr Gorak endlich besiegt habt geht es weiter zum Wing-Boss Sarthain der ziemlich einfach ist sobald die ganze Gruppe den Kampf-Ablauf einmal kapiert hat. Sarthain ist ein riesiger, unbeweglicher Baum auf einer Insel umgeben von Wasser. Der gesamte Kampf wird hinter dem Boss ausgetragen.
 
@@ -62,7 +62,7 @@ Bevor der eigentlich Boss-Kampf startet, müsst ihr noch 3 Mob gruppen töten. S
 2. Spawn von 3 Elfen-NPCs **hinter** dem Baum, die am Ende der Phase angreifbar werden (später mehr)
 3. Je nach Ausgang von Phase 2: Heilphase von Sarthain oder Dmg-Phase der Gruppe
 
-[![sarthain.jpg](images/sarthain.jpg "sarthain.jpg")](/wp-content/uploads/Warhammer_09/sarthain.jpg)
+[![sarthain.jpg](/blog/images/sarthain.jpg "sarthain.jpg")](/wp-content/uploads/Warhammer_09/sarthain.jpg)
 
 \- In der Mitte steht der Baum (9) - Die blauen Punkte symbolisieren jeweils ein Elfen NPC aus Phase 2, welche vorerst durch eine Blase umgeben sind.
 

@@ -33,11 +33,11 @@ Ergibt für diesen Abschnitt zusammen **15% Parry und 100 Kampfgeschick**.
 
 ## Parry und Kampfgeschick durch Reown und Taktiken
 
-[![](images/5211.png)](http://www.wardb.com/spell.aspx?id=1000631) [![](images/5211.png)](http://www.wardb.com/spell.aspx?id=1000632) [![](images/5211.png)](http://www.wardb.com/spell.aspx?id=1000633) [![](images/5211.png)](http://www.wardb.com/spell.aspx?id=1000634)
+[![](/blog/images/5211.png)](http://www.wardb.com/spell.aspx?id=1000631) [![](/blog/images/5211.png)](http://www.wardb.com/spell.aspx?id=1000632) [![](/blog/images/5211.png)](http://www.wardb.com/spell.aspx?id=1000633) [![](/blog/images/5211.png)](http://www.wardb.com/spell.aspx?id=1000634)
 
-[![](images/5179.png)](http://www.wardb.com/spell.aspx?id=1000649) [![](images/5179.png)](http://www.wardb.com/spell.aspx?id=1000650) [![](images/5179.png)](http://www.wardb.com/spell.aspx?id=1000651) [![](images/5179.png)](http://www.wardb.com/spell.aspx?id=1000652)
+[![](/blog/images/5179.png)](http://www.wardb.com/spell.aspx?id=1000649) [![](/blog/images/5179.png)](http://www.wardb.com/spell.aspx?id=1000650) [![](/blog/images/5179.png)](http://www.wardb.com/spell.aspx?id=1000651) [![](/blog/images/5179.png)](http://www.wardb.com/spell.aspx?id=1000652)
 
-[![](images/22264.png)](http://www.wardb.com/spell.aspx?id=14134) [![](images/22264.png)](http://www.wardb.com/spell.aspx?id=14135) [![](images/22264.png)](http://www.wardb.com/spell.aspx?id=14136) 12% Parry, 93 Kampfgeschick
+[![](/blog/images/22264.png)](http://www.wardb.com/spell.aspx?id=14134) [![](/blog/images/22264.png)](http://www.wardb.com/spell.aspx?id=14135) [![](/blog/images/22264.png)](http://www.wardb.com/spell.aspx?id=14136) 12% Parry, 93 Kampfgeschick
 
 [Greataxe Mastery](http://www.wardb.com/spell.aspx?id=1408) 5% Parry, 0 Kampfgeschick
 

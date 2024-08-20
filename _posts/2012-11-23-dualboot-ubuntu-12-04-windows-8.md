@@ -38,7 +38,7 @@ Dem Windows Setup ist es auch ziemlich egal ob ich Laufwerk 1 als Installations-
 3. Um Festplatten zu Partitionieren, von der LiveCD booten und im Setup "Ubuntu ausprobieren" auswählen
 4. Auf dem Ubuntu Desktop oben Links das Dashboard öffnen, ein Terminal starten und das Programm [Gparted](http://wiki.ubuntuusers.de/GParted) mit dem Befehl "sudo gparted" starten
 
-\[caption id="attachment\_722" align="alignleft" width="150"\][![](images/gparted_partition-150x150.jpg "gparted_partition")](http://blog.grrbrr.de/wp-content/uploads/2012/11/gparted_partition.jpg) Meine Partitionierung\[/caption\]
+\[caption id="attachment\_722" align="alignleft" width="150"\][![](/blog/images/gparted_partition-150x150.jpg "gparted_partition")](http://blog.grrbrr.de/wp-content/uploads/2012/11/gparted_partition.jpg) Meine Partitionierung\[/caption\]
 
 **Achtung:** Das Foto ist nach der Installation von Windows und Ubuntu entstanden, die erste Partition "System Reserviert" wird von Windows selbstständig angelegt und wurde nicht von mir erstellt - Bitte diese Partition NICHT manuell erstellen
 
@@ -46,13 +46,13 @@ Dem Windows Setup ist es auch ziemlich egal ob ich Laufwerk 1 als Installations-
 
 Alle anderen Festplatten habe nur eine NTFS Partition - So kann ich mit beiden System auf die Daten zugreifen.
 
-\[caption id="attachment\_726" align="alignleft" width="150"\][![test](images/winsetup_before_system_partition-150x150.jpg "winsetup_before_system_partition")](http://blog.grrbrr.de/wp-content/uploads/2012/11/winsetup_before_system_partition.jpg) Vor der Partitionierung\[/caption\]
+\[caption id="attachment\_726" align="alignleft" width="150"\][![test](/blog/images/winsetup_before_system_partition-150x150.jpg "winsetup_before_system_partition")](http://blog.grrbrr.de/wp-content/uploads/2012/11/winsetup_before_system_partition.jpg) Vor der Partitionierung\[/caption\]
 
 Nachdem die Partitionen erstellt wurden, sollte man unbedingt als erstes Windows 8 installieren. Der Bootloader von Ubuntu erkennt das Windows 8 bereits installiert ist und nimmt ihn auf. Wird Ubuntu zuerst installiert und danach Windows, überschreibt das Windows Setup einfach den MBR und Ubuntu kann nicht mehr gestartet werden.
 
 Auf dem Foto kann man sehen, wie das Windows 8 Setup die Partitionen von GParted auflistet ... Mehr schlecht als recht ^^ Bei unbekannten Dateisystemen wird nur die Größe angezeigt.
 
-\[caption id="attachment\_728" align="alignleft" width="150"\][![](images/winsetup_after_system_partition-150x150.jpg "winsetup_after_system_partition")](http://blog.grrbrr.de/wp-content/uploads/2012/11/winsetup_after_system_partition.jpg) Nach der Partitionierung\[/caption\]
+\[caption id="attachment\_728" align="alignleft" width="150"\][![](/blog/images/winsetup_after_system_partition-150x150.jpg "winsetup_after_system_partition")](http://blog.grrbrr.de/wp-content/uploads/2012/11/winsetup_after_system_partition.jpg) Nach der Partitionierung\[/caption\]
 
 Nachdem eine Partition als Installations-Partition ausgewählt wurde, möchte Windows gerne seine System-Partition erstellen und verkleinert dazu den vorhandenen Platz. Die System-Partition wird immer auf Laufwerk 0 erstellt.
 
@@ -63,13 +63,13 @@ Nachdem eine Partition als Installations-Partition ausgewählt wurde, möchte Wi
     - **Etwas anderes**
 7. Bitte **"Etwas anderes"** auswählen
 
-\[caption id="attachment\_735" align="alignleft" width="150"\][![](images/ubuntu_mountpoints-150x150.jpg "ubuntu_mountpoints")](http://blog.grrbrr.de/wp-content/uploads/2012/11/ubuntu_mountpoints.jpg) Ubuntu Installation\[/caption\]
+\[caption id="attachment\_735" align="alignleft" width="150"\][![](/blog/images/ubuntu_mountpoints-150x150.jpg "ubuntu_mountpoints")](http://blog.grrbrr.de/wp-content/uploads/2012/11/ubuntu_mountpoints.jpg) Ubuntu Installation\[/caption\]
 
 Ich habe für das Betriebsystem und mein Home-Verzeichnis verschiedene Partitionen als Einhängepunkt (Mounting) ausgewählt.
 
 **Achtung:** Unbedingt bei "Gerät für die Bootloader-Installation" die Festplatte an sich auswählen, nicht irgend eine Partition.
 
-\[caption id="attachment\_736" align="alignleft" width="150"\][![](images/grub2_ubuntu_win8-150x150.jpg "grub2_ubuntu_win8")](http://blog.grrbrr.de/wp-content/uploads/2012/11/grub2_ubuntu_win8.jpg) GRUB 2 bei Systemstart\[/caption\]
+\[caption id="attachment\_736" align="alignleft" width="150"\][![](/blog/images/grub2_ubuntu_win8-150x150.jpg "grub2_ubuntu_win8")](http://blog.grrbrr.de/wp-content/uploads/2012/11/grub2_ubuntu_win8.jpg) GRUB 2 bei Systemstart\[/caption\]
 
 Wenn alles soweit geklappt hat und Ubuntu erfolgreich installiert wurde, stellt GRUB2 dieses Menü beim Systemstart zur Verfügung.
 

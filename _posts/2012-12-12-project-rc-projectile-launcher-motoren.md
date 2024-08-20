@@ -19,7 +19,7 @@ Ich hab mich dazu entschlossen mich daran zu versuchen so ein Gerät selber zu b
 
 Was ich aber jedenfalls schon weiß: Ich möchte den Projectile Launcher **mit Motoren in alle Himmelsrichtungen drehen** können - Also woher Motoren nehmen? Legomotoren einzeln kaufen ist schon recht teuer, da hätte ich auch gleich ein fertigen Launcher kaufen können...
 
-\[caption id="attachment\_769" align="alignright" width="150"\][![Disketten-Laufwerk Einzelteile](images/floppydrive_disassembly-150x150.jpg)](http://grrbrr.de/wp-content/uploads/2012/12/floppydrive_disassembly.jpg) Disketten-Laufwerk Einzelteile\[/caption\]
+\[caption id="attachment\_769" align="alignright" width="150"\][![Disketten-Laufwerk Einzelteile](/blog/images/floppydrive_disassembly-150x150.jpg)](http://grrbrr.de/wp-content/uploads/2012/12/floppydrive_disassembly.jpg) Disketten-Laufwerk Einzelteile\[/caption\]
 
 Die günstigste Lösung: Schritt-Motoren aus alten Disketten-Laufwerken. Auf dem Bild ist zu erkennen wie der [Stepping-Motor](http://de.wikipedia.org/wiki/Schrittmotor "Schrittmotor Wikipedia") aussieht. Er dient dazu den Schreib / Lesekopf des Diskettenlaufwerkes vor und zurück zu schieben. Da mein Motor 4 Kabel hat, gehe ich davon aus das es ein 3-Schritt Motor ist (Ein Kabel für Power, 3 für die einzelnen Schritte).
 

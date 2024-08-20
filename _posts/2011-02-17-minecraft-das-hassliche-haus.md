@@ -12,7 +12,7 @@ seit ein paar Wochen wird wieder fleißig Minecraft gespielt. Vor kurzem hat der
 
 Da er mehrere Tage nicht wieder auftauchte um sein Haus zu verschönern, dachte sich die restliche Server Community man müsste sein Haus unbedingt verschönern.
 
-[![Minecraft.png](images/.Minecraft.png "Minecraft.png")](/wp-content/uploads/Minecraft.png) (Klicken, zum vergrößern)
+[![Minecraft.png](/blog/images/.Minecraft.png "Minecraft.png")](/wp-content/uploads/Minecraft.png) (Klicken, zum vergrößern)
 
 Ja im ernst ... vorher war es wirklich NOCH hässlicher. Kaum zu glauben aber wahr :) Nach dem die Servercommunity sich mehrere Tage an diesem wunderbaren Mahnmal ergötzt hat, möchte ich euch dieses gelungene Video nicht vorenthalten:
 
@@ -20,6 +20,6 @@ Ja im ernst ... vorher war es wirklich NOCH hässlicher. Kaum zu glauben aber wa
 
 Zugegeben passen die Teamspeak kommentare überhaupt nicht zum Video und waren auch nicht geplant =P Wie dem auch sei, wo früher ein hässliches Haus steht, wurde eine neue Statue errichtet um an die epischen Zeiten (2 Stunden) des Rhova zu gedenken.
 
-[![Minecraft2.png](images/.Minecraft2.png "Minecraft2.png")](/wp-content/uploads/Minecraft2.png)
+[![Minecraft2.png](/blog/images/.Minecraft2.png "Minecraft2.png")](/wp-content/uploads/Minecraft2.png)
 
 R.I.P Rhova, Danke für Eure Aufmerksamkeit :P

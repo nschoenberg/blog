@@ -10,9 +10,9 @@ tags:
 
 ... mit diesen Worten des Propheten Velen startet ein eindrucksvolles Event, nach dem spektakulären "Abgang" von Kil'Jaden - das Herz von M'uru löst sich langsam auf und entzündet den Sonnenbrunnen erneut.
 
-\[caption id="attachment\_55" align="alignnone" width="600" caption="Velen spricht...."\][![](images/velen.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/velen.jpg)\[/caption\]
+\[caption id="attachment\_55" align="alignnone" width="600" caption="Velen spricht...."\][![](/blog/images/velen.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/velen.jpg)\[/caption\]
 
-\[caption id="attachment\_57" align="alignnone" width="600" caption="... und entfacht mit hilfe des Herzens von M'uru den Sonnenbrunnen!"\][![](images/sunwell.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/sunwell.jpg)\[/caption\]
+\[caption id="attachment\_57" align="alignnone" width="600" caption="... und entfacht mit hilfe des Herzens von M'uru den Sonnenbrunnen!"\][![](/blog/images/sunwell.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/sunwell.jpg)\[/caption\]
 
 Joaaa, endlich ist es geschafft, Kil'Jaden wurde besiegt und der Sonnenbrunnen funzt wieder!
 
@@ -24,7 +24,7 @@ Nuja mal zu KJ ansich, er hat 5 Phasen und wird mit jeder Phase etwas schwierieg
 
 Phase 1 ist recht einfach. Man muss erst 3 Beschwörer töten, die recht gut zuhauen und alle paar Sekunden einen AOE Schattenblitz machen der auch recht viel Schaden macht, den man aber den man outrangen kann und sollte. Er hinterlässt einen stackenden Debuff, der den erhaltenen Schattenschaden erhöht, bleibt man also zu lange an ihnen stehen stirbt man :p
 
-\[caption id="attachment\_58" align="alignnone" width="600" caption="Joa das sind die 3 Hanseln in P1 ;)"\][![](images/hand.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/hand.jpg)\[/caption\]
+\[caption id="attachment\_58" align="alignnone" width="600" caption="Joa das sind die 3 Hanseln in P1 ;)"\][![](/blog/images/hand.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/hand.jpg)\[/caption\]
 
 Danach beginnt Phase2, KJ steigt aus seiner Suppe eindrucksvoll halb heraus und ist sehr verärgert, dass die Beschwörer tot sind. Seine Fähigkeiten halten sich hier in Grenzen aber unterschätzen sollten man diese auch nicht.
 
@@ -32,11 +32,11 @@ Zum einen wäre da sein Hauptangriffsspell, Seelenschinden, was 3k Schaden pro S
 
 Seine passiven Fähigkeiten machen den Kampf aber auch nicht leichter: KJ beschwört Schildkugeln, die mehrere Schattenblitze (ca. 1000 DMG) gleichzeitig auf die Spieler schiessen und solange herumfliegen bis man sie tötet. Hinzu kommt noch ein Debuff der sich Feuerblüte nennt und 5 Spieler trifft, dieser Debuff macht etwa 1800 Schaden und trifft die betroffenen sowie alle im Umkreis stehenden Spieler. Das heisst also für den Raid: gut verteilen ;)
 
-\[caption id="attachment\_59" align="alignnone" width="600" caption="KJ spawnt und alle schauen zu :)"\][![](images/kj-suppe.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/kj-suppe.jpg)\[/caption\]
+\[caption id="attachment\_59" align="alignnone" width="600" caption="KJ spawnt und alle schauen zu :)"\][![](/blog/images/kj-suppe.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/kj-suppe.jpg)\[/caption\]
 
-\[caption id="attachment\_62" align="alignnone" width="601" caption="kleine Kampfübersicht ^^"\][![](images/uebersicht.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/uebersicht.jpg)\[/caption\]
+\[caption id="attachment\_62" align="alignnone" width="601" caption="kleine Kampfübersicht ^^"\][![](/blog/images/uebersicht.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/uebersicht.jpg)\[/caption\]
 
-\[caption id="attachment\_63" align="alignnone" width="600" caption="Nochmal von oben, immer schön Abstand halten :)"\][![](images/10y.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/10y.jpg)\[/caption\]
+\[caption id="attachment\_63" align="alignnone" width="600" caption="Nochmal von oben, immer schön Abstand halten :)"\][![](/blog/images/10y.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/10y.jpg)\[/caption\]
 
 Ansonsten passiert hier noch nicht viel, kommen wir zu Phase 3. Er behält alle Fähigkeiten und bekommt neue hinzu.
 
@@ -52,7 +52,7 @@ Denn nun wird er sehr böse und beginnt nach einem gewissen Zeitrahmen "Dunkelhe
 
 Dieses Schild ist die einzige möglichkeit diesen Spell zu überleben, dafür muss ein Spieler einen Drachen kontrollieren, und mit dem Drachen ein Schild wirken, welches etwa einen 10 m Durchmesser hat. Das heisst alle Spieler müssen sich nun auf einem Punkt sammeln.
 
-\[caption id="attachment\_60" align="alignnone" width="600" caption="Das "Schild des Blauen" inclusive Drache :)"\][![](images/schild.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/schild.jpg)\[/caption\]
+\[caption id="attachment\_60" align="alignnone" width="600" caption="Das "Schild des Blauen" inclusive Drache :)"\][![](/blog/images/schild.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/schild.jpg)\[/caption\]
 
 Das Problem hierbei ist, daß man nur 2 Drachen hat und beide nach je 2 Schildern sterben, also bleiben für Phase 3 und Phase 4 nur insgesamt 4 Schilder um in Phase 5 zu kommen. Halt ein kleiner eingebauter "Enrage" Timer :)
 
@@ -64,13 +64,13 @@ Hat man diese überstanden und zergt ihn auf unter 25%, spawnen ein letztes mal 
 
 So hier nochmal paar Impressionen vom Fight :)
 
-\[caption id="attachment\_61" align="alignnone" width="599" caption="KJ in Großansicht kurz nach Whipe^^ (im Vordergrund liegt meine Leiche :P)"\][![](images/kjgross.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/kjgross.jpg)\[/caption\]
+\[caption id="attachment\_61" align="alignnone" width="599" caption="KJ in Großansicht kurz nach Whipe^^ (im Vordergrund liegt meine Leiche :P)"\][![](/blog/images/kjgross.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/kjgross.jpg)\[/caption\]
 
-\[caption id="attachment\_66" align="alignnone" width="601" caption="Najo, nochmal mit Interface beim Kampf ^^"\][![](images/interface.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/interface.jpg)\[/caption\]
+\[caption id="attachment\_66" align="alignnone" width="601" caption="Najo, nochmal mit Interface beim Kampf ^^"\][![](/blog/images/interface.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/interface.jpg)\[/caption\]
 
-\[caption id="attachment\_64" align="alignnone" width="601" caption="Der obligatorische Killscreen..."\][![](images/killscreen.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/killscreen.jpg)\[/caption\]
+\[caption id="attachment\_64" align="alignnone" width="601" caption="Der obligatorische Killscreen..."\][![](/blog/images/killscreen.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/killscreen.jpg)\[/caption\]
 
-\[caption id="attachment\_65" align="alignnone" width="601" caption="..und die "kleine" Feier in IF :D"\][![](images/feier.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/feier.jpg)\[/caption\]
+\[caption id="attachment\_65" align="alignnone" width="601" caption="..und die "kleine" Feier in IF :D"\][![](/blog/images/feier.jpg)](http://blog.grrbrr.de/wp-content/uploads/2008/08/feier.jpg)\[/caption\]
 
 Soo, das wars erstmal, natürlich kann man nicht alle Aspekte des Kampfes hier aufschreiben, dafür gibts noch ausführlichere Taktikten im Netz, aber für einen kleinen Einblick hats gereicht hoff ich ;)
 

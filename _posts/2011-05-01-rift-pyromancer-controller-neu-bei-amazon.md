@@ -7,6 +7,6 @@ tags:
   - "rift"
 ---
 
-![image](images/wpid-unbenanntro.gif)
+![image](/blog/images/wpid-unbenanntro.gif)
 
 Ohne Worte ...;)

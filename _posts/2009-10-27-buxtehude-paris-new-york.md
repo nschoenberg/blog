@@ -8,7 +8,7 @@ categories:
 Hoi,  
 ich hab grad bei einem alten Klassenkameraden im StudiVZ Profiil ein super Bild gefunden was ich hier unbedingt festhalten muss :P
 
-![](images/buxtehude-paris-new-york-20.jpg "Buxtehude, Paris, New York")
+![](/blog/images/buxtehude-paris-new-york-20.jpg "Buxtehude, Paris, New York")
 
 **Was es sonst neues gibt  
 **In spielerischer Hinsicht bin ich hauptsächlich immer noch bei Starcraft. :) Allerdings sind momentan Abends auch des öfteren ein paar runden L4D mit Freunden / Bekannten sehr Unterhaltsam.

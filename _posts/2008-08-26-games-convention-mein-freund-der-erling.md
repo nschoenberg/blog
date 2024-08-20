@@ -21,7 +21,7 @@ Nun denn ... um 16:40 Uhr schlugen ich und Freund Stefan wieder beim Funcom stan
 
 Ich fragte ihn ob ich ein Foto mit ihm machen könne ... und naja seht selbst:
 
-[![DSC00202_1.jpg](images/DSC00202_1.jpg "DSC00202_1.jpg")](http://blog.grrbrr.de/wp-content/uploads/2008/08/DSC00202.jpg)
+[![DSC00202_1.jpg](/blog/images/DSC00202_1.jpg "DSC00202_1.jpg")](http://blog.grrbrr.de/wp-content/uploads/2008/08/DSC00202.jpg)
 
 Tjo, da bin ich nun mit Erling Ellingson .... und meinem überaus coolen Warhammer online T-Shirt \*lol\* Naja wie dem auch sei hab ich ihm nach dem Foto auch noch mal über den tollen Endgame Content erzählt den ich momentan erlebe ... "Cutting wood" sagte ich nur.
 
@@ -31,7 +31,7 @@ Die Präsentation war ziemlich cool und hat viele einblicke auf kommenden PvE so
 
 Nunja, das war wirklich das Highlight der GC 08 für mich, der Propagander Minister hat also sein Werk vollbracht ;) Und wisst ihr was meine Guildmates dazu sagen?
 
-[![elliit4_1.jpg](images/elliit4_1.jpg "elliit4_1.jpg")](http://blog.grrbrr.de/wp-content/uploads/2008/08/elliit4.jpg)
+[![elliit4_1.jpg](/blog/images/elliit4_1.jpg "elliit4_1.jpg")](http://blog.grrbrr.de/wp-content/uploads/2008/08/elliit4.jpg)
 
 Tja ... Propagandaaaaaaaaaaa sagen die ;)
 

@@ -11,8 +11,8 @@ Ich hab zur Zeit echt spaß daran meinen kleinen Barb mit gutem Equip auszurüst
 
 Ich habe außerdem 55% Erfahrungsbonus und bin mir ganz sicher, das ich Level 60 schnell erreichen werde :-) Ich habe ungefähr 2 Millionen Gold ausgegeben für die Items, wobei das teuerste die Waffe mit 800.000 Gold war (die meisten Gems hatte ich schon). Man kann natürlich noch viel mehr DPS erreichen wenn man unbedingt super viel Geld ausgeben möchte ... :-)
 
-[![](images/profil1.jpg "Profil")](http://blog.grrbrr.de/wp-content/uploads/2012/profil1.jpg)
+[![](/blog/images/profil1.jpg "Profil")](http://blog.grrbrr.de/wp-content/uploads/2012/profil1.jpg)
 
-[![](images/profil2.jpg "Profil")](http://blog.grrbrr.de/wp-content/uploads/2012/profil2.jpg)
+[![](/blog/images/profil2.jpg "Profil")](http://blog.grrbrr.de/wp-content/uploads/2012/profil2.jpg)
 
-[![](images/barbequip.jpg "Profil")](http://blog.grrbrr.de/wp-content/uploads/2012/barbequip.jpg)
+[![](/blog/images/barbequip.jpg "Profil")](http://blog.grrbrr.de/wp-content/uploads/2012/barbequip.jpg)

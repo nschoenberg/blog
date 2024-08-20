@@ -15,11 +15,11 @@ in den amerikanischen Foren gibt es bereits einiege offizielle Änderungen die m
 
 Folgende Grafik zeigt die momentane Situation für Spieler die in einem AE Spell stehen. Die Überschneidungen der Kreise sind die kritischen Stellen:
 
-![](images/1.2-AE-Diagram.jpg "Ae dmg")
+![](/blog/images/1.2-AE-Diagram.jpg "Ae dmg")
 
 Mit dem nächsten Patch wird dies unterbunden! Nachfolgende Grafik macht dies noch etwas deutlicher:
 
-![](images/1.2.1-AE-Diagram.jpg "Ae Dmg 1.2.1")
+![](/blog/images/1.2.1-AE-Diagram.jpg "Ae Dmg 1.2.1")
 
 Dies betrifft nach aktuellen Informationen folgende Skills: Bright Wizard: Rain of Fire Sorceres: Pit of Shades Magus: Firestorm of Tzeentch, Dissolving Mist Engineer: Napalm Grenade
 

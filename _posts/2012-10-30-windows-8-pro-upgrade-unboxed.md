@@ -14,6 +14,6 @@ Die Box entählt die x86 sowie die x64 Version - Endlich können die weniger erf
 
 Link: [How To Clean Install Windows 8 Pro Upgrade](http://pcsupport.about.com/od/windows-8/ss/windows-8-clean-install-part-1.htm "Erklärt, wie die Windows 8 Pro Upgrade Version auf einem nacktem System installiert werden kann") Link: [Versionsunterschiede Windows 8](http://www.windows8pc.de/windows-8-unterschiede-zwischen-den-einzelnen-versionen.html) Link: [Windows 8 Pro Upgrade bei Microsoft für 30 € kaufen](http://windows.microsoft.com/de-DE/windows/buy)
 
-![image](images/wpid-20121030_115429.jpg "20121030_115429.jpg")
+![image](/blog/images/wpid-20121030_115429.jpg "20121030_115429.jpg")
 
-![image](images/wpid-1351599676854.jpg "1351599676854.jpg")
+![image](/blog/images/wpid-1351599676854.jpg "1351599676854.jpg")

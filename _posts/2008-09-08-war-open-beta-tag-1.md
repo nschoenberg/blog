@@ -14,7 +14,7 @@ Ich hab heute den Tag damit verbracht versucht mein CD Key ein zu geben, so wie 
 
 Naja was solls, viel trara um die Flash Seite die für sowas ungeeignet wäre und spekulationen über dies und das - Aber eins weiß ich genau: Das Forum lesen und diverse "Heul Threads" war super lustig und ich will euch mein Fundstück des Tages nicht vorenthalten:
 
-![at4gvy.png.jpg](images/at4gvy.png.jpg "at4gvy.png.jpg")
+![at4gvy.png.jpg](/blog/images/at4gvy.png.jpg "at4gvy.png.jpg")
 
 Ich hab sehr gelacht ;-)
 

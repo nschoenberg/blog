@@ -11,7 +11,7 @@ tags:
 
 Moin, ich habe am Wochenende ein Tool von mir veröffentlicht: den Rift Combat Parser.
 
-![](images/rcp_in_action.png "Rift Combat Parser")
+![](/blog/images/rcp_in_action.png "Rift Combat Parser")
 
 Es ist ein kleines Tool, das eine Logdatei von dem Spiel [RIFT](http://riftgame.com) ausließt und grafisch aufbereitet.
 

@@ -7,4 +7,4 @@ categories:
 
 Dieses Bild widme ich einem guten Freund :-)
 
-[![helliondrop.jpg](images/.helliondrop.jpg "helliondrop.jpg")](/wp-content/uploads/helliondrop.jpg)
+[![helliondrop.jpg](/blog/images/.helliondrop.jpg "helliondrop.jpg")](/wp-content/uploads/helliondrop.jpg)

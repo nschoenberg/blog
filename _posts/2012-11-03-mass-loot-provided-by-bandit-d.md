@@ -9,6 +9,6 @@ Oh man - The War Z ist echt der Hammer ^^ Entweder jemand wollte mir eine Falle 
 
 \- 3x Large Backpack - 1x M16 - 3x Shotgun - 2x 9mm Magazin - 2x B93R - paar Heal items ...
 
-[![Screen_03102012_170131.jpg](images/Screen_03102012_170131.jpg "Screen_03102012_170131.jpg")](http://blog.grrbrr.de/wp-content/uploads/2012/11/Screen_03102012_170131.jpg)
+[![Screen_03102012_170131.jpg](/blog/images/Screen_03102012_170131.jpg "Screen_03102012_170131.jpg")](http://blog.grrbrr.de/wp-content/uploads/2012/11/Screen_03102012_170131.jpg)
 
-[![Screen_03102012_171047.jpg](images/Screen_03102012_171047.jpg "Screen_03102012_171047.jpg")](http://blog.grrbrr.de/wp-content/uploads/2012/11/Screen_03102012_171047.jpg)
+[![Screen_03102012_171047.jpg](/blog/images/Screen_03102012_171047.jpg "Screen_03102012_171047.jpg")](http://blog.grrbrr.de/wp-content/uploads/2012/11/Screen_03102012_171047.jpg)

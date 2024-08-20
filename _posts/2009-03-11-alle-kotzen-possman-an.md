@@ -11,6 +11,6 @@ dieser Screenshot ist entstanden nachdem Order auf dem Server Erengrad das erste
 
 Darüber waren einiege bei uns im Teamspeak ziemlich verärgert, ich glaube bis auf Nemezia konnte sich keiner beherschen. :-)
 
-![kotzenk.JPG](images/kotzenk.JPG "kotzenk.JPG")
+![kotzenk.JPG](/blog/images/kotzenk.JPG "kotzenk.JPG")
 
 Ich hoffe er hat es genau wie wir als Scherz aufgefasst :-)

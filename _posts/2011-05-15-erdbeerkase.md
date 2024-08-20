@@ -5,6 +5,6 @@ categories:
   - "allgemein"
 ---
 
-![image](images/wpid-IMAG0080.jpg)
+![image](/blog/images/wpid-IMAG0080.jpg)
 
 Ich habe ihn gefunden :)
