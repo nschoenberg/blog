@@ -9,7 +9,9 @@ tags:
 
 Moin!
 
-<table cellspacing="5"><tbody><tr><td valign="top"><a rel="lightbox" href="/wp-content/uploads/monchichi_eyepet.png"><img title="monchichi_eyepet.png" src="images/.monchichi_eyepet.png" border="0" alt="monchichi_eyepet.png" width="200" height="150"></a></td><td>Da ich seit neustem ISDN habe, jedoch noch kein ISDN-Telefon besaß, musste ich gestern zwangsweise zu Media-Markt und mir eins kaufen. Da ich schonmal dort war, habe ich mir gleich das PlayStation EyePet gekauft, die Werbung im TV fand ich schon immer lustig. :)<div></div>Als ich mich dann mit meiner Freundin vor den TV gesetzt habe, war das erste was sie sagte "OHhhh süß, Monchichi" ... Hä? :D Ich muss sagen sie hat ziemlich recht</td></tr></tbody></table>
+Da ich seit neustem ISDN habe, jedoch noch kein ISDN-Telefon besaß, musste ich gestern zwangsweise zu Media-Markt und mir eins kaufen. Da ich schonmal dort war, habe ich mir gleich das PlayStation EyePet gekauft, die Werbung im TV fand ich schon immer lustig. :)<div></div>Als ich mich dann mit meiner Freundin vor den TV gesetzt habe, war das erste was sie sagte "OHhhh süß, Monchichi" ... Hä? :D Ich muss sagen sie hat ziemlich recht
+
+![Monchichi](/blog/images/monchichi_eyepet.png)
 
 Man kann sich das Spiel im Prinzip als Tamagotchi für die Ps3 vorstellen. Meiner Freundin hat es Spaß gemacht, ich fand es nach 15 Minuten langweilig :p
 

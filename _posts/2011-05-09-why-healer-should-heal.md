@@ -25,4 +25,4 @@ Leider ist es oftmals so das die Leute die im Chat am meisten rumjammern, am wen
 
 Zu guter letzt noch ein Video um diesen Artikel zu unterstreichen :)
 
-<iframe width="640" height="390" src="http://www.youtube.com/embed/DHpPKgi-niI" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="380" src="https://www.youtube.com/embed/DHpPKgi-niI" title="Dorkly Bits - White Mages Are Jerks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
