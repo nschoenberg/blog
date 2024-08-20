@@ -27,81 +27,275 @@ Ich hab in meinen Installer noch eine Funktion eingebaut die das OS auf  vorhan
 
 Vollständiges NSIS Template:
 
-\[code lang="c" collapse="true"\] # NSIS Installer Script # Template by nschoenberg 09.11.2012 07:20:15
+```
+# NSIS Installer Script
+# Template by nschoenberg 09.11.2012 07:20:15
 
 Name "Your Product Name"
 
-\# General Symbol Definitions !define REGKEY "SOFTWARE\\$(^Name)" !define VERSION 1.0.0.4 !define COMPANY "Your company" !define URL http://blog.grrbrr.de
+# General Symbol Definitions
+!define REGKEY "SOFTWARE\$(^Name)"
+!define VERSION 1.0.0.4
+!define COMPANY "Your company"
+!define URL http://blog.grrbrr.de
 
-\# MUI Symbol Definitions !define MUI\_ICON "${NSISDIR}\\Contrib\\Graphics\\Icons\\modern-install-blue.ico" !define MUI\_FINISHPAGE\_NOAUTOCLOSE !define MUI\_STARTMENUPAGE\_REGISTRY\_ROOT HKLM !define MUI\_STARTMENUPAGE\_REGISTRY\_KEY ${REGKEY} !define MUI\_STARTMENUPAGE\_REGISTRY\_VALUENAME StartMenuGroup !define MUI\_STARTMENUPAGE\_DEFAULTFOLDER "MSA" !define MUI\_UNICON "${NSISDIR}\\Contrib\\Graphics\\Icons\\modern-uninstall-blue.ico" !define MUI\_UNFINISHPAGE\_NOAUTOCLOSE
+# MUI Symbol Definitions
+!define MUI_ICON "${NSISDIR}\Contrib\Graphics\Icons\modern-install-blue.ico"
+!define MUI_FINISHPAGE_NOAUTOCLOSE
+!define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
+!define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
+!define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER "MSA"
+!define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall-blue.ico"
+!define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
-\# .NET requirements # Change this values for the desired .Net Version !define DOT\_MAJOR "4" !define DOT\_MINOR "0" !define DOT\_MINOR\_MINOR "30319"
+# .NET requirements
+# Change this values for the desired .Net Version
+!define DOT_MAJOR "4"
+!define DOT_MINOR "0"
+!define DOT_MINOR_MINOR "30319"
 
-\# Included files !include Sections.nsh !include MUI2.nsh
+# Included files
+!include Sections.nsh
+!include MUI2.nsh
 
-\# Reserved Files ReserveFile "${NSISDIR}\\Plugins\\AdvSplash.dll"
+# Reserved Files
+ReserveFile "${NSISDIR}\Plugins\AdvSplash.dll"
 
-\# Variables Var StartMenuGroup
+# Variables
+Var StartMenuGroup
 
-\# Installer pages !insertmacro MUI\_PAGE\_WELCOME !insertmacro MUI\_PAGE\_DIRECTORY !insertmacro MUI\_PAGE\_STARTMENU Application $StartMenuGroup !insertmacro MUI\_PAGE\_INSTFILES !insertmacro MUI\_PAGE\_FINISH !insertmacro MUI\_UNPAGE\_CONFIRM !insertmacro MUI\_UNPAGE\_INSTFILES
+# Installer pages
+!insertmacro MUI_PAGE_WELCOME
+!insertmacro MUI_PAGE_DIRECTORY
+!insertmacro MUI_PAGE_STARTMENU Application $StartMenuGroup
+!insertmacro MUI_PAGE_INSTFILES
+!insertmacro MUI_PAGE_FINISH
+!insertmacro MUI_UNPAGE_CONFIRM
+!insertmacro MUI_UNPAGE_INSTFILES
 
-\# Installer languages !insertmacro MUI\_LANGUAGE English
+# Installer languages
+!insertmacro MUI_LANGUAGE English
 
-\# Installer attributes OutFile setup.exe InstallDir "$PROGRAMFILES\\YourProductInstallationPath\\" CRCCheck on XPStyle on ShowInstDetails show VIProductVersion 1.0.0.4 VIAddVersionKey ProductName "My awesome Product" VIAddVersionKey ProductVersion "${VERSION}" VIAddVersionKey CompanyName "${COMPANY}" VIAddVersionKey CompanyWebsite "${URL}" VIAddVersionKey FileVersion "${VERSION}" VIAddVersionKey FileDescription "" VIAddVersionKey LegalCopyright "" InstallDirRegKey HKLM "${REGKEY}" Path ShowUninstDetails show
+# Installer attributes
+OutFile setup.exe
+InstallDir "$PROGRAMFILES\YourProductInstallationPath\"
+CRCCheck on
+XPStyle on
+ShowInstDetails show
+VIProductVersion 1.0.0.4
+VIAddVersionKey ProductName "My awesome Product"
+VIAddVersionKey ProductVersion "${VERSION}"
+VIAddVersionKey CompanyName "${COMPANY}"
+VIAddVersionKey CompanyWebsite "${URL}"
+VIAddVersionKey FileVersion "${VERSION}"
+VIAddVersionKey FileDescription ""
+VIAddVersionKey LegalCopyright ""
+InstallDirRegKey HKLM "${REGKEY}" Path
+ShowUninstDetails show
 
-\# Installer sections Section -Main SEC0000 SetOutPath $INSTDIR SetOverwrite on # Add all your files you want to install here File "path to file\\your\_file.exe" File "path to file\\ico.ico"
+# Installer sections
+Section -Main SEC0000
+SetOutPath $INSTDIR
+SetOverwrite on
+# Add all your files you want to install here
+File "path to file\your_file.exe"
+File "path to file\ico.ico"
 
-WriteRegStr HKLM "${REGKEY}\\Components" Main 1
+WriteRegStr HKLM "${REGKEY}\Components" Main 1
 
 SectionEnd
 
-Section -post SEC0001 WriteRegStr HKLM "${REGKEY}" Path $INSTDIR SetOutPath $INSTDIR WriteUninstaller $INSTDIR\\uninstall.exe !insertmacro MUI\_STARTMENU\_WRITE\_BEGIN Application CreateShortCut "$DESKTOP\\My Shortcut.lnk" "$INSTDIR\\file.exe" "" "$INSTDIR\\icon.ico" CreateDirectory "$SMPROGRAMS\\$StartMenuGroup\\My Awesome Product" CreateShortCut "$SMPROGRAMS\\$StartMenuGroup\\My Awesome Product\\My Shortuct.lnk" "$INSTDIR\\file.exe" "" "$INSTDIR\\icon.ico" !insertmacro MUI\_STARTMENU\_WRITE\_END WriteRegStr HKLM "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$(^Name)" DisplayName "$(^Name)" WriteRegStr HKLM "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$(^Name)" DisplayVersion "${VERSION}" WriteRegStr HKLM "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$(^Name)" Publisher "${COMPANY}" WriteRegStr HKLM "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$(^Name)" URLInfoAbout "${URL}" WriteRegStr HKLM "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$(^Name)" DisplayIcon $INSTDIR\\uninstall.exe WriteRegStr HKLM "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$(^Name)" UninstallString $INSTDIR\\uninstall.exe WriteRegDWORD HKLM "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$(^Name)" NoModify 1 WriteRegDWORD HKLM "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$(^Name)" NoRepair 1 SectionEnd
+Section -post SEC0001
+WriteRegStr HKLM "${REGKEY}" Path $INSTDIR
+SetOutPath $INSTDIR
+WriteUninstaller $INSTDIR\uninstall.exe
+!insertmacro MUI_STARTMENU_WRITE_BEGIN Application
+CreateShortCut "$DESKTOP\My Shortcut.lnk" "$INSTDIR\file.exe" "" "$INSTDIR\icon.ico"
+CreateDirectory "$SMPROGRAMS\$StartMenuGroup\My Awesome Product"
+CreateShortCut "$SMPROGRAMS\$StartMenuGroup\My Awesome Product\My Shortuct.lnk" "$INSTDIR\file.exe" "" "$INSTDIR\icon.ico"
+!insertmacro MUI_STARTMENU_WRITE_END
+WriteRegStr HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
+WriteRegStr HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
+WriteRegStr HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" Publisher "${COMPANY}"
+WriteRegStr HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" URLInfoAbout "${URL}"
+WriteRegStr HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayIcon $INSTDIR\uninstall.exe
+WriteRegStr HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
+WriteRegDWORD HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
+WriteRegDWORD HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
+SectionEnd
 
-\# Macro for selecting uninstaller sections !macro SELECT\_UNSECTION SECTION\_NAME UNSECTION\_ID Push $R0 ReadRegStr $R0 HKLM "${REGKEY}\\Components" "${SECTION\_NAME}" StrCmp $R0 1 0 next${UNSECTION\_ID} !insertmacro SelectSection "${UNSECTION\_ID}" GoTo done${UNSECTION\_ID} next${UNSECTION\_ID}: !insertmacro UnselectSection "${UNSECTION\_ID}" done${UNSECTION\_ID}: Pop $R0 !macroend
+# Macro for selecting uninstaller sections
+!macro SELECT_UNSECTION SECTION_NAME UNSECTION_ID
+Push $R0
+ReadRegStr $R0 HKLM "${REGKEY}\Components" "${SECTION_NAME}"
+StrCmp $R0 1 0 next${UNSECTION_ID}
+!insertmacro SelectSection "${UNSECTION_ID}"
+GoTo done${UNSECTION_ID}
+next${UNSECTION_ID}:
+!insertmacro UnselectSection "${UNSECTION_ID}"
+done${UNSECTION_ID}:
+Pop $R0
+!macroend
 
-\# Uninstaller sections Section /o -un.Main UNSEC0000 # delete all your installed files here Delete "path to file\\your\_file.exe" Delete "path to file\\ico.ico"
+# Uninstaller sections
+Section /o -un.Main UNSEC0000
+# delete all your installed files here
+Delete "path to file\your_file.exe"
+Delete "path to file\ico.ico"
 
-!insertmacro MUI\_STARTMENU\_GETFOLDER Application $StartMenuGroup Delete "$SMPROGRAMS\\$StartMenuGroup\\Galaxy Gx2 Sd Card Reader\\Galaxy Gx2 Sd Card Reader.lnk" RMDir "$SMPROGRAMS\\$StartMenuGroup\\Galaxy Gx2 Sd Card Reader" Delete "$DESKTOP\\Galaxy Gx2 Sd Card Reader.lnk" DeleteRegValue HKLM "${REGKEY}\\Components" Main SectionEnd
+!insertmacro MUI_STARTMENU_GETFOLDER Application $StartMenuGroup
+Delete "$SMPROGRAMS\$StartMenuGroup\Galaxy Gx2 Sd Card Reader\Galaxy Gx2 Sd Card Reader.lnk"
+RMDir "$SMPROGRAMS\$StartMenuGroup\Galaxy Gx2 Sd Card Reader"
+Delete "$DESKTOP\Galaxy Gx2 Sd Card Reader.lnk"
+DeleteRegValue HKLM "${REGKEY}\Components" Main
+SectionEnd
 
-Section -un.post UNSEC0001 DeleteRegKey HKLM "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$(^Name)" Delete /REBOOTOK $INSTDIR\\uninstall.exe DeleteRegValue HKLM "${REGKEY}" StartMenuGroup DeleteRegValue HKLM "${REGKEY}" Path DeleteRegKey /IfEmpty HKLM "${REGKEY}\\Components" DeleteRegKey /IfEmpty HKLM "${REGKEY}" RmDir /REBOOTOK $SMPROGRAMS\\$StartMenuGroup RmDir /REBOOTOK $INSTDIR Push $R0 StrCpy $R0 $StartMenuGroup 1 StrCmp $R0 ">" no\_smgroup no\_smgroup: Pop $R0 SectionEnd
+Section -un.post UNSEC0001
+DeleteRegKey HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
+Delete /REBOOTOK $INSTDIR\uninstall.exe
+DeleteRegValue HKLM "${REGKEY}" StartMenuGroup
+DeleteRegValue HKLM "${REGKEY}" Path
+DeleteRegKey /IfEmpty HKLM "${REGKEY}\Components"
+DeleteRegKey /IfEmpty HKLM "${REGKEY}"
+RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
+RmDir /REBOOTOK $INSTDIR
+Push $R0
+StrCpy $R0 $StartMenuGroup 1
+StrCmp $R0 ">" no_smgroup
+no_smgroup:
+Pop $R0
+SectionEnd
 
-\# Installer functions
+# Installer functions
 
-; Usage ; Define in your script two constants: ; DOT\_MAJOR "(Major framework version)" ; DOT\_MINOR "{Minor framework version)" ; DOT\_MINOR\_MINOR "{Minor framework version - last number after the second dot)" ; ; Call IsDotNetInstalledAdv ; This function will abort the installation if the required version ; or higher version of the .NET Framework is not installed. Place it in ; either your .onInit function or your first install section before ; other code. Function IsDotNetInstalledAdv Push $0 Push $1 Push $2 Push $3 Push $4 Push $5
+; Usage
+; Define in your script two constants:
+; DOT_MAJOR "(Major framework version)"
+; DOT_MINOR "{Minor framework version)"
+; DOT_MINOR_MINOR "{Minor framework version – last number after the second dot)"
+;
+; Call IsDotNetInstalledAdv
+; This function will abort the installation if the required version
+; or higher version of the .NET Framework is not installed. Place it in
+; either your .onInit function or your first install section before
+; other code.
+Function IsDotNetInstalledAdv
+Push $0
+Push $1
+Push $2
+Push $3
+Push $4
+Push $5
 
-StrCpy $0 "0" StrCpy $1 "SOFTWARE\\Microsoft\\.NETFramework" ;registry entry to look in. StrCpy $2 0
+StrCpy $0 "0"
+StrCpy $1 "SOFTWARE\Microsoft\.NETFramework" ;registry entry to look in.
+StrCpy $2 0
 
-StartEnum: ;Enumerate the versions installed. EnumRegKey $3 HKLM "$1\\policy" $2
+StartEnum:
+;Enumerate the versions installed.
+EnumRegKey $3 HKLM "$1\policy" $2
 
-;If we don't find any versions installed, it's not here. StrCmp $3 "" noDotNet notEmpty
+;If we don’t find any versions installed, it’s not here.
+StrCmp $3 "" noDotNet notEmpty
 
-;We found something. notEmpty: ;Find out if the RegKey starts with 'v'. ;If it doesn't, goto the next key. StrCpy $4 $3 1 0 StrCmp $4 "v" +1 goNext StrCpy $4 $3 1 1
+;We found something.
+notEmpty:
+;Find out if the RegKey starts with ‘v’.
+;If it doesn’t, goto the next key.
+StrCpy $4 $3 1 0
+StrCmp $4 "v" +1 goNext
+StrCpy $4 $3 1 1
 
-;It starts with 'v'. Now check to see how the installed major version ;relates to our required major version. ;If it's equal check the minor version, if it's greater, ;we found a good RegKey. IntCmp $4 ${DOT\_MAJOR} +1 goNext yesDotNetReg ;Check the minor version. If it's equal or greater to our requested ;version then we're good. StrCpy $4 $3 1 3 IntCmp $4 ${DOT\_MINOR} +1 goNext yesDotNetReg
+;It starts with ‘v’. Now check to see how the installed major version
+;relates to our required major version.
+;If it’s equal check the minor version, if it’s greater,
+;we found a good RegKey.
+IntCmp $4 ${DOT_MAJOR} +1 goNext yesDotNetReg
+;Check the minor version. If it’s equal or greater to our requested
+;version then we’re good.
+StrCpy $4 $3 1 3
+IntCmp $4 ${DOT_MINOR} +1 goNext yesDotNetReg
 
-;detect sub-version - e.g. 2.0.50727 ;takes a value of the registry subkey - it contains the small version number EnumRegValue $5 HKLM "$1\\policy\\$3" 0
+;detect sub-version – e.g. 2.0.50727
+;takes a value of the registry subkey – it contains the small version number
+EnumRegValue $5 HKLM "$1\policy\$3" 0
 
-IntCmpU $5 ${DOT\_MINOR\_MINOR} yesDotNetReg goNext yesDotNetReg
+IntCmpU $5 ${DOT_MINOR_MINOR} yesDotNetReg goNext yesDotNetReg
 
-goNext: ;Go to the next RegKey. IntOp $2 $2 + 1 goto StartEnum
+goNext:
+;Go to the next RegKey.
+IntOp $2 $2 + 1
+goto StartEnum
 
-yesDotNetReg: ;Now that we've found a good RegKey, let's make sure it's actually ;installed by getting the install path and checking to see if the ;mscorlib.dll exists. EnumRegValue $2 HKLM "$1\\policy\\$3" 0 ;$2 should equal whatever comes after the major and minor versions ;(ie, v1.1.4322) StrCmp $2 "" noDotNet ReadRegStr $4 HKLM $1 "InstallRoot" ;Hopefully the install root isn't empty. StrCmp $4 "" noDotNet ;build the actuall directory path to mscorlib.dll. StrCpy $4 "$4$3.$2\\mscorlib.dll" IfFileExists $4 yesDotNet noDotNet
+yesDotNetReg:
+;Now that we’ve found a good RegKey, let’s make sure it’s actually
+;installed by getting the install path and checking to see if the
+;mscorlib.dll exists.
+EnumRegValue $2 HKLM "$1\policy\$3" 0
+;$2 should equal whatever comes after the major and minor versions
+;(ie, v1.1.4322)
+StrCmp $2 "" noDotNet
+ReadRegStr $4 HKLM $1 "InstallRoot"
+;Hopefully the install root isn’t empty.
+StrCmp $4 "" noDotNet
+;build the actuall directory path to mscorlib.dll.
+StrCpy $4 "$4$3.$2\mscorlib.dll"
+IfFileExists $4 yesDotNet noDotNet
 
-noDotNet: ;Nope, something went wrong along the way. Looks like the ;proper .NET Framework isn't installed.
+noDotNet:
+;Nope, something went wrong along the way. Looks like the
+;proper .NET Framework isn’t installed.
 
-;Uncomment the following line to make this function throw a message box right away ; MessageBox MB\_OK "You must have v${DOT\_MAJOR}.${DOT\_MINOR}.${DOT\_MINOR\_MINOR} or greater of the .NET Framework installed. Aborting!" ; Abort StrCpy $0 0 Goto done
+;Uncomment the following line to make this function throw a message box right away
+; MessageBox MB_OK "You must have v${DOT_MAJOR}.${DOT_MINOR}.${DOT_MINOR_MINOR} or greater of the .NET Framework installed. Aborting!"
+; Abort
+StrCpy $0 0
+Goto done
 
-yesDotNet: ;Everything checks out. Go on with the rest of the installation. StrCpy $0 1
+yesDotNet:
+;Everything checks out. Go on with the rest of the installation.
+StrCpy $0 1
 
-done: Pop $4 Pop $3 Pop $2 Pop $1 Exch $0 FunctionEnd
+done:
+Pop $4
+Pop $3
+Pop $2
+Pop $1
+Exch $0
+FunctionEnd
 
-Function .onInit InitPluginsDir Push $R1
+Function .onInit
+InitPluginsDir
+Push $R1
 
-File /oname=$PLUGINSDIR\\spltmp.bmp images\\logo.bmp advsplash::show 1000 600 400 -1 $PLUGINSDIR\\spltmp call IsDotNetInstalledAdv Pop $0
+File /oname=$PLUGINSDIR\spltmp.bmp images\logo.bmp
+advsplash::show 1000 600 400 -1 $PLUGINSDIR\spltmp
+call IsDotNetInstalledAdv
+Pop $0
 
-IntCmp $0 1 goOnWithSetup askDoInstallnet askDoInstallnet: ${If} ${Cmd} 'MessageBox MB\_YESNO "You must have v${DOT\_MAJOR}.${DOT\_MINOR}.${DOT\_MINOR\_MINOR} or greater of the .NET Framework installed to proceed with the Setup. Do you want to install it now?" IDYES' goto doInstallNet ${Else} Abort ${EndIf} doInstallNet: ExecWait "$EXEDIR\\net40\\dotNetFx40\_Full\_x86\_x64.exe" goto goOnWithSetup goOnWithSetup: Pop $R1 Pop $R1 FunctionEnd
+IntCmp $0 1 goOnWithSetup askDoInstallnet
+askDoInstallnet:
+${If} ${Cmd} ‘MessageBox MB_YESNO "You must have v${DOT_MAJOR}.${DOT_MINOR}.${DOT_MINOR_MINOR} or greater of the .NET Framework installed to proceed with the Setup. Do you want to install it now?" IDYES’
+goto doInstallNet
+${Else}
+Abort
+${EndIf}
+doInstallNet:
+ExecWait "$EXEDIR\net40\dotNetFx40_Full_x86_x64.exe"
+goto goOnWithSetup
+goOnWithSetup:
+Pop $R1
+Pop $R1
+FunctionEnd
 
-\# Uninstaller functions Function un.onInit ReadRegStr $INSTDIR HKLM "${REGKEY}" Path !insertmacro MUI\_STARTMENU\_GETFOLDER Application $StartMenuGroup !insertmacro SELECT\_UNSECTION Main ${UNSEC0000} FunctionEnd \[/code\]
+# Uninstaller functions
+Function un.onInit
+ReadRegStr $INSTDIR HKLM "${REGKEY}" Path
+!insertmacro MUI_STARTMENU_GETFOLDER Application $StartMenuGroup
+!insertmacro SELECT_UNSECTION Main ${UNSEC0000}
+FunctionEnd
+```
 
 Nachdem das Setup fertig war, habe ich mit Hilfe von 7-Zip und 7 zip Sfx maker ein Selbstextrahierendes-Archiv erstellt das nachdem entpacken automatisch das Setup startet.
 
